@@ -1,0 +1,602 @@
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://demos.freehtml5.co/luxe/images/slider1.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;   
+    height: 100vh;
+    background-position: 50% 50%;
+    position: relative;
+}
+header nav{
+    background-color: transparent !important;
+}
+header nav ul li a{
+    font-weight: 500 !important;
+    margin: 0 5px 0 10px;
+    text-transform: uppercase;
+}
+header nav .navbar-brand{
+    font-weight: 600 !important;
+}
+
+header nav .navbar-brand{
+    color: white !important;
+    text-transform: uppercase   ;
+    letter-spacing: 1.2px;
+} 
+
+
+header nav ul li a{
+    color: rgb(196, 196, 196) !important;
+}
+header .headerDiv{
+   padding-top:12%;
+   color: white;
+   /*text-align: center;*/
+}
+header  h1{
+    color:rgb(196, 196, 196) !important ;
+    letter-spacing: 1.2px;
+    /*font-size: calc(100% - 8%);*/
+    border-bottom: 1px solid rgb(196, 196, 196) !important;
+    border-top:  1px solid rgb(196, 196, 196) !important;
+    width: 100%;  
+    /*position: relative;*/
+    /*left: 705px;*/
+    font-size: 21px !important;
+}
+header  p{
+    text-transform: uppercase;
+    font-size: 60px !important;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+header .btn{
+    border:  0 !important;
+    border-radius: 20px;
+    background-color: #FF5722 !important;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right:30px ;
+    font-size: calc(100% + 30%);
+}
+
+header .col-4 .btn:hover{
+    background-color: black !important;
+    color: white !important;
+    transition: 1s !important;
+}
+
+header .headerDiv2  {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+header .headerDiv2 .col1{
+    background-color: #FF5722;
+    padding: 25px;
+
+}
+header .headerDiv2 .col2{
+    background-color: #24282b;
+    padding: 25px;
+
+}
+
+
+header input {
+    border: 1px solid rgb(231, 231, 231) !important;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+}
+header select {
+    border: 1px solid  rgb(231, 231, 231)  !important;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    color: rgb(231, 231, 231) !important;
+
+}
+
+header input::placeholder {
+   color: rgb(231, 231, 231) !important;
+ 
+}
+
+header label {
+   color: rgb(231, 231, 231) !important;
+
+}
+
+
+
+/* sec1 */
+
+
+.sec1 {
+    padding: 20px;
+}
+.sec1 .container .row .col{
+    text-align: center !important;
+    padding: 50px;
+
+}
+.sec1 .container .row .col span{
+    font-size: calc(100% + 120%) !important;
+    font-weight: 600 !important;
+    margin-bottom: 20px !important;
+    color:rgb(73, 73, 73) ;
+}
+
+.sec1 .container .row .col p{
+    color:rgb(165, 165, 165) ;
+    font-weight: 400;
+}
+
+/* sec2 */
+
+.sec2{
+    background-color:#e6e6e6  ;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+
+
+
+
+
+
+.myDiv5{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: transparent !important;
+    color: transparent !important;
+    /* display: none; */
+    padding: 20px;
+}
+.myDiv5:hover{
+    /* display: block; */
+    background-color: #FF5722;
+    color: white;
+    transition: 1s !important;
+} 
+
+
+
+
+
+
+
+
+.sec2 img {
+    width: 100%     
+}
+.sec2 .col {
+    padding: 0 !important
+}
+.sec2 .sec2Col2 {
+    padding: 60px !important;
+    box-sizing: border-box !important
+}
+.sec2 .bgImg1 {
+    background-image: url('https://demos.freehtml5.co/luxe/images/hotel_feture_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%
+}
+
+.sec2 .bgImg2 {
+    background-image: url('https://demos.freehtml5.co/luxe/images/hotel_feture_3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%
+
+}   
+/*.sec2 .container .row .col{
+    display: flex !important;
+}*/
+/*.sec2 .container .row .col .myDiv5{
+    width: 45%;
+}
+.sec2 .container .row .col .myDivh{
+    padding: 40px !important;
+    background-color: white;
+}
+
+.sec2 .container .row .col .myDiv5 img{
+    width: 100%;
+}*/
+
+.sec2  button{
+    border:  0 !important;
+    background-color: rgb(40, 40, 40);
+    color: white  !important;
+    padding: 10px 25px;
+}
+
+.sec2  p{
+    color: rgb(143, 143, 143);
+}
+/*.sec2 .container .row{
+    margin-left: 108px;
+}*/
+/*.sec2 .container .row .col .myDiv5 h2{
+    font-weight: 300;
+}
+
+.sec2 .container .row .col .divb{
+    display: flex !important;
+}
+.sec2 .container .row .col .divb .divs{
+    width: 272px !important;
+    height: 400px;  
+
+}
+.sec2 .container .row .col .divb .divsp{
+    padding: 30px !important;
+    background-color: white;
+}
+
+.sec2 .container .row .col .divb .divs img{
+    width: 100% !important;
+    height: 100% !important;
+    background-size: cover;
+}
+
+.sec2 .container .row .col .divb .divs button{
+    border:  0 !important;
+    background-color: rgb(40, 40, 40);
+    color: white  !important;
+    padding: 10px;
+}*/
+
+/* sec3 */
+
+
+.sec3{
+    padding: 80px;
+   /* margin-top: 100px;
+    height: 130vh;*/
+}
+
+
+.sec3 .divmvg{
+    /*width: 80px !important;
+    margin-left:130px ;
+    height: 150px;*/
+    text-align: center;
+    transition: 1s ;
+
+}
+
+.sec3  svg{
+    width: 40px;
+    height: 30px
+}
+
+
+.sec3  .divmvg:hover{
+    color: #FF5722;
+    border-bottom: 1px solid #FF5722;
+}
+
+/*.sec3 .container .row  .col {
+    display:  flex !important;
+}
+*/
+
+.sec3 .bgImg3{
+   background-image: url('https://media.istockphoto.com/id/1081422898/photo/pan-fried-duck.jpg?s=612x612&w=0&k=20&c=kzlrX7KJivvufQx9mLd-gMiMHR6lC2cgX009k9XO6VA=');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+/*.sec3 .container .row  .col .mainDiv798 .divpuchur{
+    width: 650px;
+    height: 550px;
+}
+
+.sec3 .container .row  .col .mainDiv798 .divpuchur img{
+    width: 100%;
+    height: 100%;
+}
+.sec3 .container .row  .col .mainDiv798 .mypuch{
+    padding: 20px;
+}*/
+
+.sec3  p{
+    color: #848484;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.sec3  #myspan{
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #bcbcbc;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.sec3   #myspan2{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #52565b;
+}
+
+
+/* sec4 */
+
+.sec4{
+    /*height: 70vh    ;*/
+    background-color: #FF5722;
+    padding: 80px;
+    /*padding-top: 200px;*/
+    /*padding-left: 30px;*/
+}
+.sec4 h2{
+    /*position: relative;
+    left: 588px;
+    top: -99px;*/
+    color: #f8e69f;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.sec4  blockquote{
+    box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-left: none;
+    padding: 20px;
+    background: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    color:#848484 ;
+    width: 342px;
+}
+.sec4  blockquote::after{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 12px 12px 0 12px;
+    border-color: #fff transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    bottom: -12px;
+    left: 10%;
+}
+
+.sec4  p{
+    font-size: 18px;
+    color: #f8e69f;
+    font-weight: 300;
+    font-family: "Open Sans", Arial, serif
+}
+/* sec5 */
+
+
+.sec5{
+   padding-bottom:60px ;
+} 
+.sec5 h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 60px 0 60px 0;
+
+}
+.sec5 .card {
+    position: relative;
+}
+.sec5 .card::after{
+    content: '09 Aug';
+    width: 80px;
+    padding: 10px 20px;
+    background: #fff;   
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sec5 .card-body{
+    border-top: 0 !important;
+}
+.sec5 .card img{
+    width: 100% !important;
+    /* height: 350px !important; */
+}
+.sec5 .card {
+    margin: 15px !important;
+}
+/* footer */
+
+footer{
+    /* height: 60vh; */
+    background-color: #e6e6e6;
+}
+footer a{
+    color: #FF5722;
+}
+.mypfooter{
+    font-size: 16px;
+}
+
+footer form input{
+    padding: 8px !important;
+    margin: 0 !important;
+}
+footer form #submit{
+    background-color: black;
+    color: white;
+}
+footer ul li a{
+    text-decoration: none !important;
+    color: #FF5722;
+}
+footer .col-md-3 .col {
+    width: 15px;
+    height: 25px;
+    background-color: #848484;
+    border-radius: 700px;
+}
+footer .col-md-3 .col svg{
+    width: 100% !important;
+    height: 100%;
+}
+.but{ 
+    display: none; 
+    position: fixed; 
+    right: 20px; 
+    bottom: 20px; 
+    background-color:#989898; 
+    font-size: 22px; 
+    width: 55px; 
+    height: 55px; 
+    border-radius: 50%; 
+ 
+ }
+ textarea{
+    width: 100%;
+ }
+
+ /* contact.html */
+
+
+ #contactHeader {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+ background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://demos.freehtml5.co/luxe/images/slider1.jpg);
+ }
+ .contactCont {
+    padding-top: 8%;
+ }
+ .contactCont h1 {
+    font-size: 25px !important;
+ }
+ .contactCont p {
+    font-size: 40px !important;
+ }
+ #myh1{
+    border-bottom: 0 !important;
+    border-top: 0 !important;
+
+ }
+
+
+.contactsec5 {
+    padding: 100px 0;
+}
+ 
+ .contactsec5  a{
+    text-decoration: none !important;
+    color: #bcbcbc;
+    padding-bottom: 1rem !important;
+
+ }
+ .contactsec5 .formContact {
+    padding: 60px;
+ }
+ .contactsec5 .col-md-6 {
+    padding: 0 !important;
+ }
+ .contactsec5 input{
+    margin-bottom: 10px;
+    padding: 14px 25px;
+ }
+ .contactsec5 textarea{
+    width: 100%;
+ }
+
+ .contactsec5 .form-control:focus{
+    background-color: transparent  !important;
+    border: 0 !important;
+    border-color: 0 !important;
+    
+ }
+
+ .contactsec5  a:hover{
+    color: #FF5722;
+    transition: 1s !important;
+ }
+ 
+ .contactsec5 textarea{
+    margin-top: 20px ;
+ }
+
+ .contactsec5 button{
+    width: 150px !important;
+    padding:15px;
+    font-size: 16px;
+    border: 0 !important;
+    background-color: #FF5722;
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 80%;
+ }
+
+ .contactsec5 button:hover{
+    background-color: black;
+    color: #fff;
+    transition: 1s !important;
+ }
+
+ /* sec6 */
+
+.sec6{
+    padding: 50px;
+}
+.sec6 .col {
+    padding: 0;
+}
+
+.sec6 .overlayDiv  img {
+    position: relative;
+}
+
+
+.sec6 .overlay {
+    position: absolute;
+    left: 12px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    /* background-color: #24282b; */
+
+}
+.sec6 .overlayDiv:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::selection {
+    color: white;
+    background: #FF5722;
+  }
